@@ -1,72 +1,92 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
-    <link>
-    <link>
+    <title>A Simple User Interface</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link type="text/css" rel="stylesheet" href="style/style.css">
     <script>
     </script>
   </head>
   <body>
     <header>
-      <div class="container">
-        <nav class="lime lighten-2">
-            <div class="container">
-                <div class="nav-wrapper">
-                    <a href="#" class="brand-logo">VONJ DESIGNS</a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#about">ABOUT ME</a></li>  
-                        <li><a href="#contact">CONTACT ME</a></li>                         
-                    </ul>
-                </div>
-            </div>
-        </nav>
-      </div>
+      <nav class="lime lighten-2">
+          <div class="container">
+              <div class="nav-wrapper">
+                  <a href="#" class="brand-logo">VONJ DESIGNS</a>
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+                      <li><a href="#">HOME</a></li>
+                      <li><a href="#about">ABOUT ME</a></li>  
+                      <li><a href="#contact">CONTACT ME</a></li>                         
+                  </ul>
+              </div>
+          </div>
+      </nav>
     </header>
     <main>
-      <div id="container">
-        <section id="home">
-          <h1>My Online Portfolio</h1>
-          <div class="row">
-            <div class="intro">
-              <div class="image">
+      <section id="home" class="">
+        <div class="row">
+          <div class="intro">
+            <h1>My Online Portfolio</h1>
+            <div class="image">
+              <img class="img-responsive" src="image/me.jpg" alt="Victor" width="300" height="300"/>
+            </div>
+            <div class="intro-text">
+              <p class="flow-text"> My name is Victor Nwaiwu and I am an aspiring software developer. I love reading, playing and watching soccer, dancing and listening to music.
+                I interests include web and software development, UI/UX designs, motion graphics and animations.</p>
+              <p class="flow-text"> when I am not coding, I sleep or watch movies. I love nature and therefore I love travelling</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="container">
+          <h3 class="center-align">My Work</h3>
+            <div class="row">
+              <div class="medium show-piece">
+                <img class="img-responsive" src="image/me.jpg" alt="Victor" width="300" height="300"/>
+                <p class="caption">Graphics Design</p>
               </div>
-              <div class="intro-text">
+              <div class="medium show-piece">
+                <img class="img-responsive" src="image/me.jpg" alt="Victor" width="300" height="300"/>
+                <p class="caption">Graphics Design</p>
+              </div>
+              <div class="medium show-piece">
+                <img class="img-responsive" src="image/me.jpg" alt="Victor" width="300" height="300"/>
+                <p class="caption">Graphics Design</p>
               </div>
             </div>
-          </div>
-        </section>
-        <section id="about">
-          <div class="row">
-            <div class="medium show-piece">
+            <div class="row">
+              <div class="medium show-piece">
+                <img class="img-responsive" src="image/me.jpg" alt="Victor" width="300" height="300"/>
+                <p class="caption">Graphics Design</p>
+              </div>
+              <div class="medium show-piece">
+                <img class="img-responsive" src="image/me.jpg" alt="Victor" width="300" height="300"/>
+                <p class="caption">Graphics Design</p>
+              </div>
+              <div class="medium show-piece">
+                <img class="img-responsive" src="image/me.jpg" alt="Victor" width="300" height="300"/>
+                <p class="caption">Graphics Design</p>
+              </div>
             </div>
-            <div class="medium show-piece">
-            </div>
-            <div class="medium show-piece">
-            </div>
-          </div>
-          <div class="row">
-            <div class="medium show-piece">
-            </div>
-            <div class="medium show-piece">
-            </div>
-            <div class="medium show-piece">
-            </div>
-          </div>
-        </section>
-        <section id="contact">
-          <h3> Feel free to reach me on the following channels</h3>
-          <ul>
-            <li><a href="https://facebook.com/vonvikky" target="_blank">Facebook</a></li>
-            <li><a href="https://twitter.com/johnez1987" target="_blank">Twitter</a></li>
-            <li><a href="https://github.com/vonvick" target="_blank">Github</a></li>
-            <li><a href="mailto:vonvikky@gmail.com">Email</a></li>
-        </section>
-      </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+            <h3 class="center-align"> Feel free to reach me on the following channels</h3>
+            <ul>
+              <li><a href="https://facebook.com/vonvikky" target="_blank">Facebook</a></li>
+              <li><a href="https://twitter.com/johnez1987" target="_blank">Twitter</a></li>
+              <li><a href="https://github.com/vonvick" target="_blank">Github</a></li>
+              <li><a href="mailto:vonvikky@gmail.com">Email</a></li>
+            </ul>
+        </div>
+      </section>
     </main>
     <footer>
-      <h1>This is the footer of the site</h1>
+      <div class="container">
+        <p>All rights reserved</p>
+      </div>
     </footer>
   </body>
 </html>
