@@ -161,3 +161,15 @@ li {
         min-height: 1px;
     }
 }
+.about {
+    background: url(about.jpg) center fixed;
+}
+ul li {
+    transition: background-color .3s;
+    float: left;
+    padding: 0;
+}
+
+footer {
+    background-color: seagreen;
+}
